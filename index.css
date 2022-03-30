@@ -1,0 +1,39 @@
+html, body {
+  margin:0px;
+  height:100%;
+}
+body{background-color:#F9EFE4;}
+
+
+.sidebar{position:fixed;width:5%; height:100%; background-color:black;}
+
+#tabs{color:#F9EFE4; vertical-align: baseline; transform:rotate(180deg); font-family: 'Teko'; font-weight:"medium"}
+
+#tab1{writing-mode: vertical-rl;text-orientation:sideways;padding-top:75px;
+  
+ }
+#tab2{writing-mode: vertical-rl;text-orientation:sideways;padding-top:75px;
+ }
+#tab3{writing-mode: vertical-rl;text-orientation:sideways;padding-bottom:75px;padding-top:75px;
+  
+ }
+.content{position:fixed;
+   /* or absolute */
+  top: 15%;
+  left: 35%;
+}
+img{
+  width:20%;
+    
+}
+#Kunal-Gangwar{
+  width:40%;
+    padding-left:2%
+}
+#contentdesc{
+  padding-left:2%;
+  font-family:"Teko"; font-size:27px; line-height:1em; padding-top:2%}
+
+#social-media{padding-left:2%;position:absolute;display:inline;
+  width:40%;}
+#linkedin{width:200%;}
