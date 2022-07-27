@@ -2,9 +2,7 @@ html, body {
   margin:0px;
   height:100%;
 }
-body{background-color:#F9EFE4;
-  -ms-flex: 1; /* IE 10 */
-  flex: 1;}
+body{background-color:#F9EFE4;}
 
 
 .sidebar{position:fixed;width:5%; height:100%; background-color:black;}
@@ -22,11 +20,11 @@ body{background-color:#F9EFE4;
 .content{position:fixed;
    /* or absolute */
   top: 15%;
-  left: 35%;
+  left: 35%; display:flex;
+flex-direction:column;
 }
 img{
   width:20%;
-    
 }
 #Kunal-Gangwar{
   width:40%;
@@ -34,8 +32,8 @@ img{
 }
 #contentdesc{
   padding-left:2%;
-  font-family:"Teko"; font-size:27px; line-height:1em; padding-top:2%}
+  font-family:"Teko"; font-size:1.5rem; line-height:1em; padding-top:0.3%}
 
-#social-media{padding-left:2%;position:absolute;display:inline;
+#social-media{padding-left:2%;display:inline;
   width:40%;}
 #linkedin{width:200%;}
