@@ -2,7 +2,9 @@ html, body {
   margin:0px;
   height:100%;
 }
-body{background-color:#F9EFE4;}
+body{background-color:#F9EFE4;
+  -ms-flex: 1; /* IE 10 */
+  flex: 1;}
 
 
 .sidebar{position:fixed;width:5%; height:100%; background-color:black;}
